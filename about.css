@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fffefe;
+    background-color: #f0f0f0;
+}
+
+.content {
+    width: 80%;
+    max-width: 1200px;
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+} 
+
+.content h2{
+    text-align: center;
+    color: coral;
+    font-size: 50px;
+}
+
+.container h2{
+    text-align: left;
+    color: rgb(74, 238, 227);
+    font-size: 30px;
+}
+
+.container h1{
+    text-align: left;
+    color: rgb(230, 238, 74);
+    font-size: 30px;
+}
+
+.content p{
+    text-align: left;
+    font-size: 30px;
+}
+
+.header {
+    background-image: url(maxresdefault.jpg);
+    color: #fff;
+    padding: 50px 0;
+}
+
+.header .logo {
+    display: inline-block;
+    font-size: 40px;
+    margin: 0;
+}
+
+.navbar {
+    display: inline-block;
+    float: right;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.about, .guidance, .team {
+    background-image: url(OIP.jpeg);
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.about h2, .guidance h2, .team h2 {
+    font-size: 30px;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.guidance .guidance-images, .team .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.guidance-item, .team-member {
+    text-align: center;
+}
+
+.guidance-item img, .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #f3f2f2;
+    color: #050303;
+    padding: 20px 0;
+    text-align: center;
+}
